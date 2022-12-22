@@ -40,8 +40,8 @@ const Banner = () => {
             <h2 className="text-4xl font-serif">
              <span>{text}</span>
             <Cursor cursorColor='red' />
-                    </h2>
-            <h2 className="text-4xl font-serif"></h2>
+            </h2>
+            
             <p className="mt-6 mb-8 text-lg sm:mb-12">
               Dictum aliquam porta in condimentum ac integer
               <br className="hidden md:inline lg:hidden" />

@@ -8,7 +8,7 @@ const Details = () => {
 	console.log(data);
 
 	useEffect(() => {
-		fetch(`http://localhost:5000/details/${id}`)
+		fetch(`https://portfolio-server-chi-nine.vercel.app/details/${id}`)
 			.then((res) => res.json())
 			.then((data) => setData(data));
 
@@ -80,16 +80,15 @@ const Details = () => {
 					<p>4. {data.text4}</p>
 					<p className="font-bold">Technology : {data.technology}</p>
 					<div className="card-actions justify-end">
-                        <div className="badge badge-outline text-white hover:bg-pink-500">
-                            <a href={data.livelink}>liveLink</a>
-                        </div>
 						<div className="badge badge-outline text-white hover:bg-pink-500">
-                            <a href={data.clientlink}>ClientLink</a>
+							<a href={data.livelink}>liveLink</a>
 						</div>
 						<div className="badge badge-outline text-white hover:bg-pink-500">
-                            <a href={data.serverlink}>ServerLink</a>
+							<a href={data.clientlink}>ClientLink</a>
 						</div>
-					
+						<div className="badge badge-outline text-white hover:bg-pink-500">
+							<a href={data.serverlink}>ServerLink</a>
+						</div>
 					</div>
 				</div>
 			</div>
