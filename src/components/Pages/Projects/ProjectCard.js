@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const ProjectCard = (project) => {
     const {id,name,img,text1,text2,text3,text4 } = project.project
@@ -22,11 +22,11 @@ const ProjectCard = (project) => {
 						<p>3.{text3}</p>
 						<p>4.{text4}</p>
 						<div className="card-actions justify-end">
-{/* 							
-							<Link to={`/details/${id}`}>
+							
+							{/* <Link to={`/details/${id}`}>
                             <button className="btn bg-gradient-to-t from-pink-600 ">View Details<FaArrowRight className="ml-2"/></button>
-					</Link> */}
-                    <button onClick={handleNaviateBtn} className="btn bg-gradient-to-t from-pink-600 ">View Details<FaArrowRight className="ml-2"/></button>
+							</Link> */}
+                    	<button onClick={handleNaviateBtn} className="btn bg-gradient-to-t from-pink-600 ">View Details<FaArrowRight className="ml-2"/></button>
 						</div>
 					</div>
 				</div> 

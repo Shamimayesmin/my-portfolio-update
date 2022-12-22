@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FaArrowRight } from "react-icons/fa";
+
 import { useParams } from "react-router-dom";
 
 const Details = () => {
@@ -19,6 +19,8 @@ const Details = () => {
 		//     setData(result);
 		//   });
 	}, [id]);
+
+
 	return (
 		<div className="flex flex-col lg:flex-row justify-around my-20 mx-5 gap-8">
 			<div className="carousel lg:w-1/2 rounded-xl">
