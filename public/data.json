@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "name": "CarSale",
+        "technology": "React, JavaScript, Firebase authentication, tailwindCss , MongoDb, Node js, React hot toast, JWT ,React Query, React hook form, React router dom, React Strip",
+        
+        "img": "https://i.ibb.co/4pnSbvz/car0.jpg",
+        "pic1" :"https://i.ibb.co/VSGT2VH/car1.png",
+        "pic2" :"https://i.ibb.co/WfngkvV/car2.png",
+        "pic3" :"https://i.ibb.co/ZTnmV13/car3.png",
+        "pic4" :"https://i.ibb.co/74TvNsh/car4.png",
+        "text1":"It's a resale wesite with resposive layout, nice UI & UX.",
+        "text2":"Implemented firebase authentication login and logout system for enjoyable user experience",
+        "text3":"1.Implemented dashboard with diffrent user role admin, seller, buyer route",
+        "text4":"Created dynamic product category route, user can see category wise products",
+        "livelink" : "https://used-car-96305.web.app",
+        "clientlink":"https://github.com/Shamimayesmin/used-car-client-repo",
+        "serverlink" : "https://github.com/Shamimayesmin/used-car-server-repo"
+        
+      },
+    {
+        "id": 2,
+        "name": "CarPer",
+        "technology": "React, JavaScript, Firebase authentication, tailwindCss , MongoDb, Node js, React hot toast, JWT, React router dom,React Photo view ",
+        
+        "img": "https://i.ibb.co/LnrdksL/pro2.png",
+        "pic1" :"https://i.ibb.co/9YHL9rb/carper1.png",
+        "pic2" :"https://i.ibb.co/pyvc3ZC/carper2.png",
+        "pic3" :"https://i.ibb.co/1fSgt4p/carper3.png",
+        "pic4" :"https://i.ibb.co/p13RWJ9/carper4.png",
+        
+        "text1":"It designed for all type of carpenter service provide ",
+        "text2":"Excuted firebase authentication with login and logout for good user experience",
+        "text3":"Created checkout page , user can add service in the checkout page to fillup checkout form.",
+        "text4":"In service details page user can add review on this service and see previous reviews.",
+        "livelink" : "https://assignment--11.web.app/",
+        "clientlink":"https://github.com/Shamimayesmin/carper-service-client",
+        "serverlink" : "https://github.com/Shamimayesmin/carper-service-server"
+      },
+    {
+        "id": 3,
+        "name": "EduMate",
+        "technology": "React, JavaScript, Firebase authentication, tailwindCss, React hot toast, JWT, React router dom, React pdf, React icons",
+        
+        "img": "https://i.ibb.co/jzGDqVk/pro3.png",
+        "pic1" :"https://i.ibb.co/CVJd0Z3/edu1.png",
+        "pic2" :"https://i.ibb.co/Fqh7Gbx/edu2.png",
+        "pic3" :"https://i.ibb.co/jzY7Tf9/edu3.png",
+        "pic4" :"https://i.ibb.co/Nr9CXXY/edu4.png",
+        
+        "text1":"Online educational website with resposive layout nice UI design ",
+        "text2":"Inplemented firebase authentication in login logout route and checkout page",
+        "text3":"Course category route where each course has dynamic route details page",
+        "text4":"In details page excuted react pdf to download that course and premium button.",
+        "livelink" : "https://assignment-10-4ecf8.web.app/",
+        "clientlink":"https://github.com/Shamimayesmin/My-EduMate-client-repo",
+        "serverlink" : "https://github.com/Shamimayesmin/My-EduMate-server-repo"
+      },
+    {
+        "id": 4,
+        "name": "Quizizz",
+        "technology": "React js, JavaScript, tailwindCss , React hot toast, React router dom ,Mamba UI",
+        
+        "img": "https://i.ibb.co/PzY4H00/pro4.png",
+        "pic1" :"https://i.ibb.co/s6Tfh0C/qui1.png",
+        "pic2" :"https://i.ibb.co/ctQCGbz/qui2.png",
+        "pic3" :"https://i.ibb.co/BHhx7wN/qui3.png",
+        "pic4": "https://i.ibb.co/PzY4H00/pro4.png",
+        
+        "text1":"Programimg quiz contest website",
+        "text2":" React , JavaScript, CSS, Git category quiz.",
+        "text3":"To select specific category it will redirect quiz page",
+        "text4":"On quiz page after sellecting quiz option it will show right or worng answer on toast",
+        "livelink" : "https://timely-kitten-854e6c.netlify.app/",
+        "clientlink":"https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Shamimayesmin"
+        
+      }
+    
+]
