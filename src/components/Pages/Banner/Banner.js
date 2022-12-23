@@ -3,7 +3,8 @@ import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import bgb from '../../../assets/images/wave-haikei (3).png'
 import {  Cursor, useTypewriter } from 'react-simple-typewriter'
-
+import Lottie from 'react-lottie';
+import img from '../../../headerpic.json'
 
 const Banner = () => {
   const [text] = useTypewriter({
@@ -11,6 +12,15 @@ const Banner = () => {
     loop: false,
     onLoopDone: () => console.log(`loop completed after 3 runs.`)
   })
+
+  const defaultOptions = {
+    loop: true,
+    autoplay: true, 
+    animationData: img,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
     return (
         <section
         id="home"
@@ -43,9 +53,9 @@ const Banner = () => {
             </h2>
             
             <p className="mt-6 mb-8 text-lg sm:mb-12">
-              Dictum aliquam porta in condimentum ac integer
+             I am passionate to coding and make awsome interactive lay
               <br className="hidden md:inline lg:hidden" />
-              turpis pulvinar, est scelerisque ligula sem
+              out  for web application.
             </p>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
               <a
@@ -71,7 +81,9 @@ const Banner = () => {
             </div>
           </div>
   
-          <div className="flex items-center justify-center mt-8 lg:mt-0  sm:h-80 lg:h-96 xl:h-112 2xl:h-128 "></div>
+          <div className="flex items-center justify-center mt-8 lg:mt-0  sm:h-80 lg:h-96 xl:h-112 2xl:h-128 ">
+            <Lottie options={defaultOptions}/>
+            </div>
         </div>
       </section>
     );

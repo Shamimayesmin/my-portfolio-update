@@ -4,9 +4,9 @@ import { SiReactrouter,SiFirebase ,SiMongodb,SiExpress} from "react-icons/si";
 
 const Skills = () => {
     return (
-        <div className="my-20">
-        <h3 className="text-center font-bold text-lg font-serif text-pink-500">Skills</h3>
-                <h2 className="text-4xl text-center font-bold font-serif">Fully compatible with</h2>
+        <div className="mt-40">
+        <h3 className="text-center font-bold text-lg font-serif text-pink-500 mt-11">Skills</h3>
+                <h2 className="text-4xl text-center font-bold font-serif">Fully comfortable with</h2>
         <section className="dark:bg-gray-800 dark:text-gray-100">
             <div className="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8">
                 

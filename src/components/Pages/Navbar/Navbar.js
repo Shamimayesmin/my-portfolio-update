@@ -57,7 +57,7 @@ const Navbar = () => {
                 </div>
                 <NavLink
                     to="/"
-                    className="btn bg-gradient-to-t from-pink-600 normal-case text-xl"
+                    className="btn bg-gradient-to-t from-pink-600 normal-case text-xl font-serif"
                 >
                     SYPort
                 </NavLink>

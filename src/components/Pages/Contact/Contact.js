@@ -1,18 +1,18 @@
 import React, { useRef } from 'react';
 import emailjs from "@emailjs/browser";
-// import Lottie from 'react-lottie';
-// import contact from '../../../contact1.json'
+import Lottie from 'react-lottie';
+import contact from '../../../contact3.json'
 
 const Contact = () => {
 
-    // const defaultOptions = {
-    //     loop: true,
-    //     autoplay: true,
-    //     animationData: contact,
-    //     rendererSettings: {
-    //       preserveAspectRatio: "xMidYMid slice",
-    //     },
-    //   };
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: contact,
+        rendererSettings: {
+          preserveAspectRatio: "xMidYMid slice",
+        },
+      };
       const form = useRef();
     
       const sendEmail = (e) => {
@@ -46,7 +46,7 @@ const Contact = () => {
                 <div className="lg:w-1/2 sm:w-full">
                 
                     {/* <img src={img} className="rounded-lg shadow-2xl" alt="" /> */}
-                    {/* <Lottie options={defaultOptions}></Lottie> */}
+                    <Lottie options={defaultOptions}/>
                 </div>
                 <div className="card lg:w-1/2 sm:w-full flex-shrink-0 max-w-sm shadow-2xl bg-base-100">
                     <form  className="card-body" ref={form} onSubmit={sendEmail}>

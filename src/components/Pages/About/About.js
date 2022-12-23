@@ -1,20 +1,31 @@
 import React from 'react';
-import img from '../../../assets/images/pic.jpg'
+import img from '../../../girl4.json'
 import img2 from '../../../assets/images/web2.jpg'
+import Lottie from 'react-lottie';
 
 const About = () => {
+	
+	const defaultOptions = {
+		loop: true,
+		autoplay: true, 
+		animationData: img,
+		rendererSettings: {
+		  preserveAspectRatio: 'xMidYMid slice'
+		}
+	  };
     return (
         <div className="hero my-20">
 			<div className="hero-content flex-col lg:flex-row">
-				<div className="relative w-1/2">
-					<img
-						src={img2} alt=''
+				<div className="relative lg:w-1/2 sm:w-full">
+				<Lottie options={defaultOptions}/>
+					{/* <img
+						src={img} alt=''
 						className="w-4/5 h-full rounded-lg shadow-2xl"
-					/>
-					<img
+					/> */}
+					{/* <img
 						src={img2} alt=''
 						className="w-3/5 right-5 top-1/2 border-4 absolute rounded-full shadow-2xl"
-					/>
+					/> */}
 				</div>
 				<div className="w-1/2 font-serif">
 					<h1 className="text-5xl my-5 font-bold">About Me</h1>
