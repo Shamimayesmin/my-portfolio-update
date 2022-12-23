@@ -1,6 +1,6 @@
 import React from 'react';
 import img from '../../../girl4.json'
-import img2 from '../../../assets/images/web2.jpg'
+// import img2 from '../../../assets/images/web2.jpg'
 import Lottie from 'react-lottie';
 
 const About = () => {

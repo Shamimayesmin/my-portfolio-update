@@ -53,9 +53,10 @@ const Banner = () => {
             </h2>
             
             <p className="mt-6 mb-8 text-lg sm:mb-12">
-             I am passionate to coding and make awsome interactive lay
+           
+            I am passionate about coding and making awesome interactive lay
               <br className="hidden md:inline lg:hidden" />
-              out  for web application.
+              outs for web applications.
             </p>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
               <a
