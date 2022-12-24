@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 const Details = () => {
+	
 	const [data, setData] = useState({});
 	const { id } = useParams();
 	console.log(data);
@@ -11,16 +12,10 @@ const Details = () => {
 		fetch(`https://portfolio-server-chi-nine.vercel.app/details/${id}`)
 			.then((res) => res.json())
 			.then((data) => setData(data));
-
-		// fetch("data.json")
-		//   .then((res) => res.json())
-		//   .then((data) => {
-		//     const result = data.find((pr) => pr.id == id);
-		//     setData(result);
-		//   });
+			
 	}, [id]);
 
-
+	
 	return (
 		<div className="flex flex-col lg:flex-row justify-around my-20 mx-5 gap-8">
 			<div className="carousel lg:w-1/2 rounded-xl">
