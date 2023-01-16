@@ -35,9 +35,9 @@ const Feature = () => {
 				<div className="card bg-base-100 shadow-2xl transform transition duration-500 hover:scale-125 hover:bg-cyan-700">
 					<div className="card-body">
 						<FaAndroid className="text-3xl text-pink-600"></FaAndroid>
-						<h2 className="card-title">App Development</h2>
+						<h2 className="card-title">Front-End Development</h2>
 						<p>
-							I’ll handle everything from to app development process until it
+							I’ll handle everything from to front-end development process until it
 							is time to make your project live.
 						</p>
 						<div className="card-actions justify-end">

@@ -29,6 +29,8 @@ const Contact = () => {
             (result) => {
               console.log(result.text);
               console.log("message sent");
+              alert('msg sent')
+              
             },
             (error) => {
               console.log(error.text);
