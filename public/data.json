@@ -33,7 +33,7 @@
         "text2":"Excuted firebase authentication with login and logout for good user experience",
         "text3":"Created checkout page , user can add service in the checkout page to fillup checkout form.",
         "text4":"In service details page user can add review on this service and see previous reviews.",
-        "livelink" : "https://assignment--11.web.app/",
+        "livelink" : "https://carpenter-service-89898.web.app/",
         "clientlink":"https://github.com/Shamimayesmin/carper-service-client",
         "serverlink" : "https://github.com/Shamimayesmin/carper-service-server"
       },
@@ -52,7 +52,7 @@
         "text2":"Inplemented firebase authentication in login logout route and checkout page",
         "text3":"Course category route where each course has dynamic route details page",
         "text4":"In details page excuted react pdf to download that course and premium button.",
-        "livelink" : "https://assignment-10-4ecf8.web.app/",
+        "livelink" : "https://edumate-12a8b.web.app/",
         "clientlink":"https://github.com/Shamimayesmin/My-EduMate-client-repo",
         "serverlink" : "https://github.com/Shamimayesmin/My-EduMate-server-repo"
       },
