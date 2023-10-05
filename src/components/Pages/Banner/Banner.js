@@ -61,7 +61,7 @@ const Banner = () => {
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
               <a
                 rel="noopener noreferrer"
-                href="shamima_yesmin_resume.pdf"
+                href="shamima-yesmin-resume (1).pdf"
                 download="Shamima's resume pdf"
                 className="px-8 py-3 text-lg font-semibold border  rounded dark:bg-violet-400 dark:text-gray-900 bg-gradient-to-t from-pink-600"
               >
